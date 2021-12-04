@@ -4,11 +4,12 @@
 #include <iostream>
 #include <string>
 #include "Day2.h"
-#include "Utilities.h"
+#include "../Utilities/Utilities.h"
 Day2::Day2() {
-    Input = Utilities::ReadAllLinesInFile("C:/Users/Moran/ClionProjects/AoC/Day2.input");
+    Input = Utilities::ReadAllLinesInFile("C:/Users/Moran/ClionProjects/AoC/Day2/Day2.input");
 }
 void Day2::PrintSolution1() {
+    std::cout << "Day 2:" << '\n';
     std::cout << CalculatePosition(false) << '\n';
 }
 void Day2::PrintSolution2() {

@@ -3,12 +3,13 @@
 //
 #include <iostream>
 #include <string>
-#include "Utilities.h"
+#include "../Utilities/Utilities.h"
 #include "Day3.h"
 Day3::Day3()
-    :Input(Utilities::ReadAllLinesInFile("C:/Users/Moran/ClionProjects/AoC/Day3.input"))
+    :Input(Utilities::ReadAllLinesInFile("C:/Users/Moran/ClionProjects/AoC/Day3/Day3.input"))
 {}
 void Day3::PrintSolution1() {
+    std::cout << "Day 3:" << '\n';
     std::cout << CalculatePowerConsumption() << '\n';
 }
 void Day3::PrintSolution2() {

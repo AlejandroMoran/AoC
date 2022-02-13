@@ -53,7 +53,7 @@ int Day3::CalculateLifeSupport(){
         CurrentInput=NextInput;
         CurrentPosition++;
     }
-    int OxigenGenerator = std::stoi(CurrentInput[0], nullptr,2);
+    int OxygenGenerator = std::stoi(CurrentInput[0], nullptr,2);
     CurrentPosition=0;
     CurrentInput=Input;
     while(CurrentInput.size()!=1){
@@ -76,7 +76,7 @@ int Day3::CalculateLifeSupport(){
     }
     int CO2Scrubber = std::stoi(CurrentInput[0], nullptr,2);
 
-    return CO2Scrubber*OxigenGenerator;
+    return CO2Scrubber*OxygenGenerator;
 }
 
 std::vector<int> Day3::CountOnesByPosition(const std::vector<std::string> &CurrentInput) {

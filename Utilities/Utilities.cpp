@@ -3,7 +3,7 @@
 //
 
 #include <fstream>
-#include <assert.h>
+#include <cassert>
 #include <string>
 #include "Utilities.h"
 
